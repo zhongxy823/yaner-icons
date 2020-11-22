@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import * as AntdIcons from '../src/icons';
+import './index.css';
 
 const allIcons = AntdIcons;
 
@@ -18,7 +19,7 @@ const AllIconDemo = {
           if (this.currentTheme !== 'Outlined') {
             return icon.name.includes(this.currentTheme);
           }
-          return ['Filled', 'TwoTone'].every(theme => !icon.name.includes(theme));
+          return ['Filled', 'Multicolored'].every(theme => !icon.name.includes(theme));
         })
         .map(Component => (
           <div class="card" key={Component.displayName}>
@@ -46,7 +47,7 @@ const AllIconDemo = {
           >
             <option value="Filled">Filled</option>
             <option value="Outlined">Outlined</option>
-            <option value="TwoTone">Two-Tone</option>
+            <option value="Multicolored">Multicolored</option>
           </select>
         </div>
         <div class="container">{this.Icons}</div>
