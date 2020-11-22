@@ -1,0 +1,12 @@
+{
+  "name": "yee-icons",
+  "private": true,
+  "author": "yaner",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "insert-css": "^2.0.0"
+  },
+  "license": "MIT"
+}

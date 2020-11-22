@@ -1,0 +1,7 @@
+bin
+src
+tsconfig.json
+.fatherrc.js
+node_modules
+.doc
+.docz

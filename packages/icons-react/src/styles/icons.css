@@ -1,0 +1,45 @@
+.font {
+  display: inline-block;
+  width: 200px;
+  height: 110px;
+  padding-top: 20px;
+  text-align: center;
+  line-height: 64px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.font input {
+  position: absolute;
+  left: -100000px;
+  top: -100000px;
+}
+.font svg {
+  font-size: 32px;
+  transition: All 0.3s ease-in-out;
+  -webkit-transition: All 0.3s ease-in-out;
+  -moz-transition: All 0.3s ease-in-out;
+  -o-transition: All 0.3s ease-in-out;
+}
+.font p {
+  text-align: center;
+  line-height: 20px;
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+.font:hover {
+  background-color: #1890ff;
+  color: #fff;
+}
+
+.font:hover svg {
+  transform: scale(1.6);
+  -webkit-transform: scale(1.6); /*兼容-webkit-引擎浏览器*/
+  -moz-transform: scale(1.6);
+}
+
+.font:hover p {
+  color: #fff;
+}
