@@ -4,7 +4,7 @@ const options = {
   doc: {
     title: 'yee-icons', // 标题
     themeConfig: { mode: 'light' }, // 主题色
-    base: 'yee-icons/packages/icons-react/doc/', // 根路由
+    base: '/yee-icons/packages/icons-react/doc/', // 根路由
   },
   cssModules: false,
   extractCSS: true, // 是否将 css 抽离成单独的 css 文件
