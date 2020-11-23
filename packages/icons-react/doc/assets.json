@@ -1,9 +1,9 @@
 {
-  "vendors.css": "/static/css/vendors.a4a2ce4ab654ebdb4027.css",
-  "vendors.js": "/static/js/vendors.540be7df.js",
-  "app.js": "/static/js/app.a4a2ce4ab654ebdb4027.js",
-  "src-icons-example.js": "/static/js/src-icons-example.6dd57c29.js",
-  "src-icons-index.css": "/static/css/src-icons-index.a4a2ce4ab654ebdb4027.css",
-  "src-icons-index.js": "/static/js/src-icons-index.0d092ae5.js",
-  "index.html": "/index.html"
+  "vendors.css": "yee-icons/packages/icons-react/doc/static/css/vendors.1d2e056803fda4e00cd1.css",
+  "vendors.js": "yee-icons/packages/icons-react/doc/static/js/vendors.b3ce2dcf.js",
+  "app.js": "yee-icons/packages/icons-react/doc/static/js/app.1d2e056803fda4e00cd1.js",
+  "src-icons-example.js": "yee-icons/packages/icons-react/doc/static/js/src-icons-example.6dd57c29.js",
+  "src-icons-index.css": "yee-icons/packages/icons-react/doc/static/css/src-icons-index.1d2e056803fda4e00cd1.css",
+  "src-icons-index.js": "yee-icons/packages/icons-react/doc/static/js/src-icons-index.0d092ae5.js",
+  "index.html": "yee-icons/packages/icons-react/doc/index.html"
 }
