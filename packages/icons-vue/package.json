@@ -10,7 +10,7 @@
     "scripts": {
         "start": "vc-tools run server",
         "lint": "eslint -c ./.eslintrc --fix --ext .jsx,.js,.vue ./src",
-        "compile": "vc-tools run compile --babel-runtime",
+        "build": "vc-tools run compile --babel-runtime",
         "update:icons": "node bin/update"
     },
     "files": [

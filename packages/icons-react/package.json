@@ -7,7 +7,7 @@
   "repository": "https://github.com/zhongxy823/yee-icons",
   "author": "yaner",
   "scripts": {
-    "dev": "npx --max_old_space_size=8096 father doc dev --host localhost  --port 8001",
+    "start": "npx --max_old_space_size=8096 father doc dev --host localhost  --port 8001",
     "build": "father build",
     "build:doc": "father doc build",
     "deploy": "father doc deploy",

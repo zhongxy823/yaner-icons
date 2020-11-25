@@ -3,13 +3,13 @@ import { default as createFromIconfontCN } from '../components/IconFont';
 const IconFont = createFromIconfontCN()
 
 export default {
-  name: 'SuccessFilled',
-  displayName: 'SuccessFilled',
+  name: 'AggregateOutlined',
+  displayName: 'AggregateOutlined',
   functional: true,
   render: (h, { data, children }) =>
     h(
       IconFont,
-      { ...data, props: { ...data.props, type: 'SuccessFilled' } },
+      { ...data, props: { ...data.props, type: 'AggregateOutlined' } },
       children
     ),
 };

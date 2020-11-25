@@ -4,10 +4,10 @@ import { IconBaseProps } from '../components/Icon';
 
 const IconFont = createFromIconfontCN()
 
-const FailedFilled = (
+const AggregateOutlined = (
   props: IconBaseProps,
   ref: React.MutableRefObject<HTMLSpanElement>,
-) => <IconFont type="FailedFilled" {...props} ref={ref} />;
+) => <IconFont type="AggregateOutlined" {...props} ref={ref} />;
 
-FailedFilled.displayName = 'FailedFilled';
-export default React.forwardRef<HTMLSpanElement, IconBaseProps>(FailedFilled);
+AggregateOutlined.displayName = 'AggregateOutlined';
+export default React.forwardRef<HTMLSpanElement, IconBaseProps>(AggregateOutlined);

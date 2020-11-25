@@ -5,8 +5,14 @@
   "devDependencies": {
     "lerna": "^3.22.1"
   },
+  "scripts": {
+    "update:react": "cd packages/icons-react/ && yarn && yarn update:icons $URL && yarn build && yarn build:doc",
+    "update:vue": "cd packages/icons-vue/ && yarn && yarn update:icons $URL && yarn build",
+    "build": "npm-run-all --parallel update:*"
+  },
   "dependencies": {
-    "insert-css": "^2.0.0"
+    "insert-css": "^2.0.0",
+    "npm-run-all": "^4.1.5"
   },
   "license": "MIT"
 }

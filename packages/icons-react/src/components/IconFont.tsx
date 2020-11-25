@@ -38,7 +38,7 @@ function createScriptUrlElements(scriptUrls: string[], index: number = 0): void 
 }
 
 export default function create(options: CustomIconOptions = {}): React.SFC<IconFontProps> {
-  const { scriptUrl='//at.alicdn.com/t/font_2220316_i06l1hp1j5.js', extraCommonProps = {} } = options;
+  const { scriptUrl='//at.alicdn.com/t/font_1972488_cciyhmarq8o.js', extraCommonProps = {} } = options;
 
   /**
    * DOM API required.
