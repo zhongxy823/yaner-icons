@@ -1,12 +1,12 @@
-# Yee Icons
+# yaner Icons
 
 ### 引用组件
 
 ```shell
-yarn add @yee/icons-react
-yarn add @yee/icons-vue
-yarn add @yee/icons-taro-mini-program
-yarn add @yee/icons-taro-h5
+yarn add @yaner/icons-react
+yarn add @yaner/icons-vue
+yarn add @yaner/icons-taro-mini-program
+yarn add @yaner/icons-taro-h5
 ```
 
 ### 基本用法
@@ -15,7 +15,7 @@ yarn add @yee/icons-taro-h5
 
 ```tsx
 import React from 'react'
-import { SmilingOutlined } from '@yee/icons-react';
+import { SmilingOutlined } from '@yaner/icons-react';
 
 const IPage: React.SF = () => {
   return (
@@ -33,7 +33,7 @@ export default IPage
 ```tsx
 import React, { Component } from 'react'
 import { View } from '@tarojs/components'
-import { SmilingOutlined } from '@yee/icons-taro-h5'; 
+import { SmilingOutlined } from '@yaner/icons-taro-h5'; 
 export default class IPage extends Component {
 
   componentWillMount () { }

@@ -1,10 +1,10 @@
 {
-  "name": "@yee/icons-vue",
+  "name": "@yaner/icons-vue",
   "version": "0.0.2",
-  "description": "Yee Icons for Vue",
+  "description": "yaner Icons for Vue",
   "main": "./lib/index.js",
   "module": "./es/index.js",
-  "repository": "https://github.com/zhongxy823/yee-icons.git",
+  "repository": "https://github.com/zhongxy823/yaner-icons.git",
   "author": "yaner",
   "license": "MIT",
   "scripts": {
@@ -46,7 +46,7 @@
   "config": {
     "port": 9528,
     "entry": {
-      "@yee/icons-vue": [
+      "@yaner/icons-vue": [
         "./src/index.jsx"
       ]
     }

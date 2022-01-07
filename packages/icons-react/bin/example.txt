@@ -10,21 +10,21 @@ sidebar: true
 ## 引用组件
 
 ```
-yarn add @yee/icons-react
+yarn add @yaner/icons-react
 ```
 
 ## 引入组件样式
 
 ```
 import React from 'react';
-import { SmilingOutlined } from '@yee/icons-react';
+import { SmilingOutlined } from '@yaner/icons-react';
 ```
 
 ## 使用组件 [React/Vue]
 
 ```
 import React from 'react';
-import { SmilingOutlined } from '@yee/icons-react';
+import { SmilingOutlined } from '@yaner/icons-react';
 
 const Wrapper: React.SF = () => {
   return (

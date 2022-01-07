@@ -1,5 +1,5 @@
 {
-  "name": "@yee/icons-taro-h5",
+  "name": "@yaner/icons-taro-h5",
   "version": "0.0.2",
   "browser": "dist/index.umd.js",
   "module": "dist/index.esm.js",

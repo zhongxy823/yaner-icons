@@ -1,10 +1,10 @@
 {
-  "name": "@yee/icons-react",
+  "name": "@yaner/icons-react",
   "version": "0.0.2",
-  "description": "yee-icons from React",
+  "description": "yaner-icons from React",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
-  "repository": "https://github.com/zhongxy823/yee-icons",
+  "repository": "https://github.com/zhongxy823/yaner-icons",
   "author": "yaner",
   "scripts": {
     "start": "npx --max_old_space_size=8096 father doc dev --host localhost  --port 8001",

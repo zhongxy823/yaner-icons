@@ -1,9 +1,9 @@
-# Yee Icons from Vue
+# yaner Icons from Vue
 
 ### 引用组件
 
 ```shell
-yarn add @yee/icons-vue
+yarn add @yaner/icons-vue
 ```
 
 ### 基本用法
@@ -17,7 +17,7 @@ yarn add @yee/icons-vue
 
 <script>
 
-import { RotateLeftOutlined } from '@yee/icons-vue'
+import { RotateLeftOutlined } from '@yaner/icons-vue'
 
 export default {
   name: 'Page',
