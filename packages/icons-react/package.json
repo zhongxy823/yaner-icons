@@ -1,6 +1,6 @@
 {
   "name": "@yee/icons-react",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "yee-icons from React",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

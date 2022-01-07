@@ -1,6 +1,6 @@
 {
   "name": "@yee/icons-vue",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Yee Icons for Vue",
   "main": "./lib/index.js",
   "module": "./es/index.js",
