@@ -1,9 +1,12 @@
-# Yee Icons from React
+# Yee Icons
 
 ### 引用组件
 
 ```shell
 yarn add @yee/icons-react
+yarn add @yee/icons-vue
+yarn add @yee/icons-taro-mini-program
+yarn add @yee/icons-taro-h5
 ```
 
 ### 基本用法
