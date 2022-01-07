@@ -4,10 +4,10 @@ import { IconBaseProps } from '../components/Icon';
 
 const IconFont = createFromIconfontCN()
 
-const AggregateOutlined = (
+const ZhiFilled = (
   props: IconBaseProps,
   ref: React.MutableRefObject<HTMLSpanElement>,
-) => <IconFont type="AggregateOutlined" {...props} ref={ref} />;
+) => <IconFont type="ZhiFilled" {...props} ref={ref} />;
 
-AggregateOutlined.displayName = 'AggregateOutlined';
-export default React.forwardRef<HTMLSpanElement, IconBaseProps>(AggregateOutlined);
+ZhiFilled.displayName = 'ZhiFilled';
+export default React.forwardRef<HTMLSpanElement, IconBaseProps>(ZhiFilled);

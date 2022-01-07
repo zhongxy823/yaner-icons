@@ -8,11 +8,40 @@ sidebar: true
 import '../styles/icons.css'
 import '../styles/tabs.css'
 
-import { AggregateOutlined } from './'
+import { YiFilled } from './'
+import { ZhiFilled } from './'
+import { XiaoFilled } from './'
+import { YanFilled } from './'
+import { ErFilled } from './'
+import { YiMulticolored } from './'
+import { ZhiMulticolored } from './'
+import { XiaoMulticolored } from './'
+import { YanMulticolored } from './'
+import { ErMulticolored } from './'
+import { YiOutlined } from './'
+import { ZhiOutlined } from './'
+import { XiaoOutlined } from './'
+import { YanOutlined } from './'
+import { ErOutlined } from './'
 
+import { copyName } from "../copy.ts";
 
 
 # Icon 图标
 
-<div className="tabs"><input type="radio" id="tab1" name="tab-control" defaultChecked /><input type="radio" id="tab2" name="tab-control" /><input type="radio" id="tab3" name="tab-control" /><ul><li title="线框风格"><label htmlFor="tab1" role="button"><span>线框风格</span></label></li><li title="实底风格"><label htmlFor="tab2" role="button"><span>实底风格</span></label></li><li title="双色风格"><label htmlFor="tab3" role="button"><span>双色风格</span></label></li></ul><div className="slider"><div className="indicator"></div></div><div className="content"><section><div className="font"><AggregateOutlined /><p>AggregateOutlined</p></div>
-</section><section></section><section></section></div></div>
+<div className="tabs"><input type="radio" id="tab1" name="tab-control" defaultChecked /><input type="radio" id="tab2" name="tab-control" /><input type="radio" id="tab3" name="tab-control" /><ul><li title="线框风格"><label htmlFor="tab1" role="button"><span>线框风格</span></label></li><li title="实底风格"><label htmlFor="tab2" role="button"><span>实底风格</span></label></li><li title="双色风格"><label htmlFor="tab3" role="button"><span>双色风格</span></label></li></ul><div className="slider"><div className="indicator"></div></div><div className="content"><section><div className="font" onClick={() => copyName('YiOutlined')}><YiOutlined /><p>YiOutlined</p></div>
+<div className="font" onClick={() => copyName('ZhiOutlined')}><ZhiOutlined /><p>ZhiOutlined</p></div>
+<div className="font" onClick={() => copyName('XiaoOutlined')}><XiaoOutlined /><p>XiaoOutlined</p></div>
+<div className="font" onClick={() => copyName('YanOutlined')}><YanOutlined /><p>YanOutlined</p></div>
+<div className="font" onClick={() => copyName('ErOutlined')}><ErOutlined /><p>ErOutlined</p></div>
+</section><section><div className="font" onClick={() => copyName('YiFilled')}><YiFilled /><p>YiFilled</p></div>
+<div className="font" onClick={() => copyName('ZhiFilled')}><ZhiFilled /><p>ZhiFilled</p></div>
+<div className="font" onClick={() => copyName('XiaoFilled')}><XiaoFilled /><p>XiaoFilled</p></div>
+<div className="font" onClick={() => copyName('YanFilled')}><YanFilled /><p>YanFilled</p></div>
+<div className="font" onClick={() => copyName('ErFilled')}><ErFilled /><p>ErFilled</p></div>
+</section><section><div className="font" onClick={() => copyName('YiMulticolored')}><YiMulticolored /><p>YiMulticolored</p></div>
+<div className="font" onClick={() => copyName('ZhiMulticolored')}><ZhiMulticolored /><p>ZhiMulticolored</p></div>
+<div className="font" onClick={() => copyName('XiaoMulticolored')}><XiaoMulticolored /><p>XiaoMulticolored</p></div>
+<div className="font" onClick={() => copyName('YanMulticolored')}><YanMulticolored /><p>YanMulticolored</p></div>
+<div className="font" onClick={() => copyName('ErMulticolored')}><ErMulticolored /><p>ErMulticolored</p></div>
+</section></div></div>

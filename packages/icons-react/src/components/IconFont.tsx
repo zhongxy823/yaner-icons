@@ -38,7 +38,15 @@ function createScriptUrlElements(scriptUrls: string[], index: number = 0): void 
 }
 
 export default function create(options: CustomIconOptions = {}): React.SFC<IconFontProps> {
-  const { scriptUrl='//at.alicdn.com/t/font_1972488_cciyhmarq8o.js', extraCommonProps = {} } = options;
+  let protocol = "";
+  if (typeof window !== 'undefined') {
+    protocol = window.location.protocol
+    if (protocol === 'file:') {
+      protocol = 'http:'
+    }
+  }
+  const uri='//at.alicdn.com/t/font_2220316_u95hl0eed8.js'
+  const { scriptUrl = protocol + uri, extraCommonProps = {} } = options;
 
   /**
    * DOM API required.

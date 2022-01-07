@@ -34,6 +34,10 @@
   color: #fff;
 }
 
+.font:active {
+  color: #ff475a;
+}
+
 .font:hover svg {
   transform: scale(1.6);
   -webkit-transform: scale(1.6); /*兼容-webkit-引擎浏览器*/

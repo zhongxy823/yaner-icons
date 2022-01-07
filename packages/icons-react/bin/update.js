@@ -17,7 +17,7 @@ if (option.length && option[0].includes('//at.alicdn.com/')) {
       }
       const result = data
         .toString()
-        .replace(/scriptUrl=\'.+?\'/g, `scriptUrl='${uri}'`);
+        .replace(/uri=\'.+?\'/g, `uri='${uri}'`);
       fs.writeFile(
         path.resolve(__dirname, '../src/components/IconFont.tsx'),
         result,
@@ -48,14 +48,14 @@ if (option.length && option[0].includes('//at.alicdn.com/')) {
           iconsMDXImportResult + `import { ${e} } from './'\n`;
         if (e.includes('Outlined')) {
           OutlinedIcons =
-            OutlinedIcons + `<div className="font"><${e} /><p>${e}</p></div>\n`;
+            OutlinedIcons + `<div className="font" onClick={() => copyName('${e}')}><${e} /><p>${e}</p></div>\n`;
         } else if (e.includes('Filled')) {
           FilledIcons =
-            FilledIcons + `<div className="font"><${e} /><p>${e}</p></div>\n`;
+            FilledIcons + `<div className="font" onClick={() => copyName('${e}')}><${e} /><p>${e}</p></div>\n`;
         } else if (e.includes('Multicolored')) {
           MulticoloredIcons =
             MulticoloredIcons +
-            `<div className="font"><${e} /><p>${e}</p></div>\n`;
+            `<div className="font" onClick={() => copyName('${e}')}><${e} /><p>${e}</p></div>\n`;
         }
 
         let data = await fs.readFileSync(__dirname + '/template.tsx', {
@@ -80,6 +80,7 @@ import '../styles/icons.css'
 import '../styles/tabs.css'
 
 ${iconsMDXImportResult}
+import { copyName } from "../copy.ts";
 
 
 # Icon 图标
