@@ -30,3 +30,5 @@ build/
 
 # publish
 *.tgz
+
+yarn.lock
