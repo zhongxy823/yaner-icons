@@ -1,6 +1,6 @@
 {
   "name": "@yaner/icons-react",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "yaner-icons from React",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
