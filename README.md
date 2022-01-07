@@ -6,6 +6,8 @@
 
 - React: [@yee/icons-react](./packages/icons-react)
 - Vue: [@yee/icons-vue](./packages/icons-vue)
+- Taro-H5: [@yee/icons-taro-h5](./packages/icons-taro-h5)
+- Taro-MiniProgram: [@yee/icons-taro-mini-program](./packages/icons-taro-mini-program)
 
 
 ### Reference project 参考项目

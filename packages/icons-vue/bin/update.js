@@ -17,7 +17,7 @@ if (option.length && option[0].includes('//at.alicdn.com/')) {
       }
       const result = data
         .toString()
-        .replace(/scriptUrl=\'.+?\'/g, `scriptUrl='${uri}'`);
+        .replace(/uri=\'.+?\'/g, `uri='${uri}'`);
       fs.writeFile(
         path.resolve(__dirname, '../src/components/IconFont.jsx'),
         result,

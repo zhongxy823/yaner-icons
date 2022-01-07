@@ -6,13 +6,16 @@
     "lerna": "^3.22.1"
   },
   "scripts": {
-    "update:react": "cd packages/icons-react/ && yarn && yarn update:icons $URL && yarn build && yarn build:doc",
-    "update:vue": "cd packages/icons-vue/ && yarn && yarn update:icons $URL && yarn build",
-    "build": "npm-run-all --parallel update:*"
+    "update:react": "cd packages/icons-react/ && yarn update:icons $URL && yarn build && yarn build:doc",
+    "update:vue": "cd packages/icons-vue/ && yarn update:icons $URL && yarn build",
+    "update:taro-h5": "cd packages/icons-taro-h5/ && yarn update:icons $URL && yarn build",
+    "update:taro-mini-program": "cd packages/icons-taro-mini-program/ && yarn update:icons $URL && yarn build",
+    "build": "lerna bootstrap && npm-run-all --parallel update:*"
   },
   "dependencies": {
     "insert-css": "^2.0.0",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "ts-node": "^10.4.0"
   },
   "license": "MIT"
 }

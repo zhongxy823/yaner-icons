@@ -4,7 +4,15 @@ import { mergeProps } from "../utils";
 const customCache = new Set();
 
 export default function create(options = {}) {
-  const { scriptUrl='//at.alicdn.com/t/font_1972488_cciyhmarq8o.js', extraCommonProps = {} } = options;
+  let protocol = '';
+  if(typeof window !== "undefined") {
+    protocol = window.location.protocol
+    if (protocol === 'file:') {
+      protocol = 'http:'
+    }
+  }
+  const uri='//at.alicdn.com/t/font_2220316_u95hl0eed8.js'
+  const { scriptUrl=protocol+uri, extraCommonProps = {} } = options;
   /**
    * DOM API required.
    * Make sure in browser environment.
